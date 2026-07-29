@@ -346,17 +346,28 @@ section { position: relative; padding: 120px 0; }
 }
 
 .hero-stat strong {
-  display: block;
-  font-family: var(--font-mono);
-  font-weight: 700;
-  font-size: clamp(2.6rem, 5vw, 3.6rem);
-  font-variant-numeric: tabular-nums;
+  display: flex;
+  align-items: flex-start;
+  gap: 3px;
   color: var(--white);
   line-height: 1;
-  letter-spacing: -1px;
 }
 
-.hero-stat strong .accent-num { color: var(--accent); }
+.hero-stat strong .accent-num {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: clamp(3.2rem, 6.5vw, 4.6rem);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -1px;
+  color: var(--accent);
+}
+
+.hero-stat strong .plus {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 6px;
+}
 
 .hero-stat span {
   font-size: 14px;
@@ -576,14 +587,26 @@ section { position: relative; padding: 120px 0; }
 }
 
 .stat-block strong {
+  display: flex;
+  align-items: flex-start;
+  gap: 3px;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.stat-block strong .counter {
   font-family: var(--font-mono);
   font-weight: 700;
-  font-size: clamp(2.4rem, 4.5vw, 3.2rem);
+  font-size: clamp(2.8rem, 5.5vw, 3.8rem);
   font-variant-numeric: tabular-nums;
-  color: var(--accent);
-  display: block;
-  line-height: 1;
   letter-spacing: -1px;
+}
+
+.stat-block strong .plus {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 5px;
 }
 
 .stat-block span {
