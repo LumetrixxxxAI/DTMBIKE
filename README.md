@@ -21,21 +21,20 @@ DTMBIKE/
 
 ## Fotos pendientes de sustituir
 
-Todas las imágenes de `img/` son **placeholders en SVG** claramente marcados con el texto "FOTO PENDIENTE", ya que no se encontraron fotos reales del taller en las carpetas del equipo. Sustitúyelas por fotos reales manteniendo el mismo nombre de archivo (o actualiza la ruta en `index.html`):
+Ya se han incorporado 2 fotos reales del local (mostrador/taller y una bici Ridley en el soporte), usadas en el hero, la imagen de Open Graph y la galería. El resto siguen siendo **placeholders en SVG** marcados con el texto "FOTO PENDIENTE". Sustitúyelas por fotos reales manteniendo el mismo nombre de archivo (o actualiza la ruta en `index.html`):
 
 | Archivo | Descripción | Tamaño recomendado |
 |---|---|---|
-| `img/hero-taller-dtmbike.svg` | Foto panorámica del taller o una bici premium en el mostrador (imagen de portada) | 1920×1080px horizontal |
 | `img/torre-fundador-dtmbike.svg` | Retrato de Torre trabajando o con una bici | 900×1100px vertical |
 | `img/galeria-taller-01.svg` | Banco de trabajo con herramientas | 1000×750px |
 | `img/galeria-taller-02.svg` | Detalle de transmisión/cadena SRAM | 1000×750px |
 | `img/galeria-taller-03.svg` | Suspensión Fox/RockShox en revisión | 1000×750px |
-| `img/galeria-taller-04.svg` | Bici de carretera o MTB terminada | 1000×750px |
 | `img/galeria-taller-05.svg` | Mostrador con componentes y accesorios | 1000×750px |
 | `img/galeria-taller-06.svg` | Torre realizando una puesta a punto | 1000×750px |
-| `img/og-image-dtmbike.svg` | Imagen para compartir en redes sociales (Open Graph) | 1200×630px |
 
-`img/favicon.svg` es un icono de marca ya diseñado (no es una foto) — no necesita sustitución salvo que quieras cambiar el logo.
+Ya sustituidos con fotos reales: `img/hero-taller-dtmbike.jpg`, `img/og-image-dtmbike.jpg` y `img/galeria-bici-ridley.jpg`.
+
+`img/favicon.svg`, `img/favicon-dtmbike.png` y `img/logo-dtmbike.png` son el icono/logo de marca ya diseñado — no necesitan sustitución.
 
 **Recomendación:** al sustituir, exporta las fotos en `.jpg` (calidad ~75-80%) o `.webp` para que pesen poco, y actualiza las rutas `src` en `index.html` de `.svg` a la nueva extensión.
 
