@@ -21,18 +21,19 @@ DTMBIKE/
 
 ## Fotos pendientes de sustituir
 
-Ya se han incorporado 2 fotos reales del local (mostrador/taller y una bici Ridley en el soporte), usadas en el hero, la imagen de Open Graph y la galería. El resto siguen siendo **placeholders en SVG** marcados con el texto "FOTO PENDIENTE". Sustitúyelas por fotos reales manteniendo el mismo nombre de archivo (o actualiza la ruta en `index.html`):
+Ya se han incorporado 2 fotos reales del local (mostrador/taller y una bici Ridley en el soporte), usadas en el hero, la imagen de Open Graph, la sección "Sobre nosotros" y la galería. El resto siguen siendo **placeholders en SVG** marcados con el texto "FOTO PENDIENTE". Sustitúyelas por fotos reales manteniendo el mismo nombre de archivo (o actualiza la ruta en `index.html`):
 
 | Archivo | Descripción | Tamaño recomendado |
 |---|---|---|
-| `img/torre-dueno-dtmbike.svg` | Retrato de Torre (dueño del taller) trabajando o con una bici | 900×1100px vertical |
 | `img/galeria-taller-01.svg` | Banco de trabajo con herramientas | 1000×750px |
 | `img/galeria-taller-02.svg` | Detalle de transmisión/cadena SRAM | 1000×750px |
 | `img/galeria-taller-03.svg` | Suspensión Fox/RockShox en revisión | 1000×750px |
 | `img/galeria-taller-05.svg` | Mostrador con componentes y accesorios | 1000×750px |
-| `img/galeria-taller-06.svg` | Torre realizando una puesta a punto | 1000×750px |
+| `img/galeria-taller-06.svg` | Mecánico realizando una puesta a punto | 1000×750px |
 
-Ya sustituidos con fotos reales: `img/hero-taller-dtmbike.jpg`, `img/og-image-dtmbike.jpg` y `img/galeria-bici-ridley.jpg`.
+Ya sustituidos con fotos reales: `img/hero-taller-dtmbike.jpg`, `img/og-image-dtmbike.jpg` y `img/galeria-bici-ridley.jpg` (esta última se usa dos veces: en la galería y en "Sobre nosotros").
+
+No se nombra a ninguna persona concreta del equipo en los textos; todo está redactado en plural genérico ("reparamos", "trabajamos con", etc.).
 
 `img/favicon.svg`, `img/favicon-dtmbike.png` y `img/logo-dtmbike.png` son el icono/logo de marca ya diseñado — no necesitan sustitución.
 
