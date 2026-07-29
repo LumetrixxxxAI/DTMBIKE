@@ -25,7 +25,7 @@ Ya se han incorporado 2 fotos reales del local (mostrador/taller y una bici Ridl
 
 | Archivo | Descripción | Tamaño recomendado |
 |---|---|---|
-| `img/torre-fundador-dtmbike.svg` | Retrato de Torre trabajando o con una bici | 900×1100px vertical |
+| `img/torre-dueno-dtmbike.svg` | Retrato de Torre (dueño del taller) trabajando o con una bici | 900×1100px vertical |
 | `img/galeria-taller-01.svg` | Banco de trabajo con herramientas | 1000×750px |
 | `img/galeria-taller-02.svg` | Detalle de transmisión/cadena SRAM | 1000×750px |
 | `img/galeria-taller-03.svg` | Suspensión Fox/RockShox en revisión | 1000×750px |
