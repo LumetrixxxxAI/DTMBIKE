@@ -530,6 +530,12 @@ section { position: relative; padding: 120px 0; }
 
 .brand-badge:hover { color: var(--accent); }
 
+@media (max-width: 600px) {
+  .brands-section { padding: 44px 0; }
+  .brands-track { gap: 36px; padding-right: 36px; }
+  .brand-badge { font-size: 1.05rem; letter-spacing: 1.2px; }
+}
+
 /* ---------- Sobre nosotros ---------- */
 .about {
   display: grid;
