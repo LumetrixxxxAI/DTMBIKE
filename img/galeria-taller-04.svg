@@ -1,0 +1,34 @@
+<svg viewBox="0 0 1000 750" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Galeria: bici terminada">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0b0d"/>
+      <stop offset="55%" stop-color="#16181c"/>
+      <stop offset="100%" stop-color="#0a0b0d"/>
+    </linearGradient>
+    <pattern id="diag" width="46" height="46" patternTransform="rotate(35)" patternUnits="userSpaceOnUse">
+      <rect width="46" height="46" fill="none"/>
+      <rect width="10" height="46" fill="#d7ff1e" opacity="0.045"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="750" fill="url(#bg)"/>
+  <rect width="1000" height="750" fill="url(#diag)"/>
+  <rect x="0" y="0" width="1000" height="750" fill="none" stroke="#d7ff1e" stroke-opacity="0.35" stroke-width="6"/>
+  <g transform="translate(500,335)" opacity="0.5">
+    <circle r="140" fill="none" stroke="#d7ff1e" stroke-width="5"/>
+    <circle r="6" fill="#d7ff1e"/>
+    <g stroke="#d7ff1e" stroke-width="2.5" opacity="0.8">
+      <line x1="0" y1="0" x2="0" y2="-140"/>
+      <line x1="0" y1="0" x2="0" y2="140"/>
+      <line x1="0" y1="0" x2="-140" y2="0"/>
+      <line x1="0" y1="0" x2="140" y2="0"/>
+      <line x1="0" y1="0" x2="98" y2="-98"/>
+      <line x1="0" y1="0" x2="-98" y2="-98"/>
+      <line x1="0" y1="0" x2="98" y2="98"/>
+      <line x1="0" y1="0" x2="-98" y2="98"/>
+    </g>
+  </g>
+  <text x="500" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="35" fill="#d7ff1e" letter-spacing="2">FOTO PENDIENTE</text>
+  <text x="500" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="23" fill="#ffffff" opacity="0.85">Galeria: bici terminada</text>
+  <text x="500" y="678" text-anchor="middle" font-family="Arial, sans-serif" font-weight="400" font-size="18" fill="#a9adb3">Bici de carretera o MTB lista para entregar</text>
+  <text x="500" y="722" text-anchor="middle" font-family="Arial, sans-serif" font-weight="400" font-size="16" fill="#6b6f76">Tamaño recomendado: 1000x750px</text>
+</svg>
