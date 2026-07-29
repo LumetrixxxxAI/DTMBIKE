@@ -356,7 +356,7 @@ section { position: relative; padding: 120px 0; }
 .hero-stat strong .accent-num {
   font-family: var(--font-mono);
   font-weight: 700;
-  font-size: clamp(3.2rem, 6.5vw, 4.6rem);
+  font-size: clamp(2.2rem, 4vw, 2.8rem);
   font-variant-numeric: tabular-nums;
   letter-spacing: -1px;
   color: var(--accent);
@@ -597,7 +597,7 @@ section { position: relative; padding: 120px 0; }
 .stat-block strong .counter {
   font-family: var(--font-mono);
   font-weight: 700;
-  font-size: clamp(2.8rem, 5.5vw, 3.8rem);
+  font-size: clamp(2rem, 3.5vw, 2.4rem);
   font-variant-numeric: tabular-nums;
   letter-spacing: -1px;
 }
