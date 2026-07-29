@@ -19,6 +19,7 @@
 
   --font-display: "Oswald", "Arial Narrow", sans-serif;
   --font-body: "Inter", "Segoe UI", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Consolas", monospace;
 
   --container: 1240px;
   --radius: 10px;
@@ -346,18 +347,21 @@ section { position: relative; padding: 120px 0; }
 
 .hero-stat strong {
   display: block;
-  font-family: var(--font-display);
-  font-size: 2.4rem;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: clamp(2.6rem, 5vw, 3.6rem);
+  font-variant-numeric: tabular-nums;
   color: var(--white);
   line-height: 1;
+  letter-spacing: -1px;
 }
 
 .hero-stat strong .accent-num { color: var(--accent); }
 
 .hero-stat span {
-  font-size: 12.5px;
+  font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   color: var(--gray-dark);
   font-weight: 600;
 }
@@ -499,7 +503,7 @@ section { position: relative; padding: 120px 0; }
 
 @keyframes marquee {
   from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  to { transform: translateX(-20%); }
 }
 
 .brand-badge {
@@ -572,18 +576,21 @@ section { position: relative; padding: 120px 0; }
 }
 
 .stat-block strong {
-  font-family: var(--font-display);
-  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: clamp(2.4rem, 4.5vw, 3.2rem);
+  font-variant-numeric: tabular-nums;
   color: var(--accent);
   display: block;
   line-height: 1;
+  letter-spacing: -1px;
 }
 
 .stat-block span {
   color: var(--gray-dark);
-  font-size: 12.5px;
+  font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   font-weight: 600;
 }
 
